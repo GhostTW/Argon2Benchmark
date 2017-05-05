@@ -28,7 +28,6 @@ using [Konscious.Security.Cryptography package](https://github.com/kmaragon/Kons
 ### Sample
 ```cmd
 >Argon2Benchmark.exe password salt uuid secret 0 2 5120 10 256
-args: password salt uuid secret 0 2 5120 10 256
 Elapsed: 00:00:00.1801720
 result: System.Byte[]
 result length: 256
