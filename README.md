@@ -6,7 +6,8 @@ using [Konscious.Security.Cryptography package](https://github.com/kmaragon/Kons
 
 ## How to use
 
-`Argon2Benchmark.exe password salt uuid secret 0 2 5120 10 256`
+1. `dotnet restore`
+1. `dotnet run password salt uuid secret 0 2 5120 10 256`
 
 ## Arguments
 
@@ -19,6 +20,10 @@ using [Konscious.Security.Cryptography package](https://github.com/kmaragon/Kons
 1. memorySize
 1. iterations
 1. resultLength
+
+## build exe
+
+`dotnet publish -c Release -r win10-x64`
 
 ### Sample
 ```cmd
