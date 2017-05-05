@@ -36,6 +36,7 @@
 			{
 				Console.Write($" {arg}");
 			}
+			Console.WriteLine();
 		}
 
 		public static byte[] HashPasswordArgon2(byte[] password, byte[] salt, byte[] userUuidBytes, Argon2Algorithm algorithm = Argon2Algorithm.i, int degreeOfParallelism = 2, int memorySize = 5120, int iterations = 10, int resultLength = 256)
